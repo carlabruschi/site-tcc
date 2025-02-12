@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.5;
+}
+
+main {
+  flex: 1;
+}
+
+/* Barra de navegação */
+.navbar {
+  text-align: right;
+  background-color: #621f76;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  font-family: Inter;
+  text-decoration: none;
+  margin: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #39ff14;
+}
+
+/* Seções */
+section {
+  max-width: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sobre {
+  max-width: flex;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.sobre h1 {
+  font-size: 60px;
+  font-family: "Jersey 15";
+}
+
+.sobre p {
+  font-family: Inter;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin: 1px 50px;
+}
+
+.mulheres {
+  color: #000000;
+  text-align: center;
+  padding: 10px 20px;
+  max-width: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.mulheres h1 {
+  font-size: 60px;
+  font-family: "Jersey 15";
+  margin: 10px 10px;
+}
+
+.mulheres p {
+  font-family: "Jersey 15";
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.mulheres-imagens {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mulheres-circulo {
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mulheres-circulo:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.creditos {
+  position: relative;
+  top: 0;
+  display: flex;
+  color: #000000;
+  text-align: left;
+}
+
+.creditos h1 {
+  font-size: 60px;
+  font-family: "Jersey 15";
+}
+
+#texto {
+  padding-left: 80px;
+  padding-right: 20px;
+  width: 850px;
+  font-family: "Inter";
+  font-size: 15px;
+  display: inline-block;
+}
+
+#fotos {
+  display: inline-block;
+  width: 400px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #621f76;
+  color: white;
+}
