@@ -116,7 +116,7 @@ section {
 
 .creditos {
   position: relative;
-  top: 0;
+  top: 0px;
   display: flex;
   color: #000000;
   text-align: left;
@@ -129,16 +129,11 @@ section {
 
 #texto {
   padding-left: 80px;
-  padding-right: 20px;
-  width: 850px;
+  padding-right: 50px;
+  width:1400px;
   font-family: "Inter";
   font-size: 15px;
   display: inline-block;
-}
-
-#fotos {
-  display: inline-block;
-  width: 400px;
 }
 
 .rodape {
@@ -146,4 +141,10 @@ section {
   padding: 20px;
   background-color: #621f76;
   color: white;
+}
+#fotos{
+	display: grid;
+	 grid-template-columns: repeat(1, 3fr); /* 3 colunas iguais */
+    gap: 0px;
+    width: 200px;
 }
